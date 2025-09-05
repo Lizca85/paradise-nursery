@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   // Cambia 'paradise-nursery' por el nombre de tu repo si usas GitHub Pages
-  base: process.env.GITHUB_PAGES ? '/paradise-nursery/' : '/',
+  base: '/paradise-nursery/',
 })
